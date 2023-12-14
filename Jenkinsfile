@@ -1,7 +1,7 @@
 pipeline{
 stages{
   stage{
-    script{
+    steps{
       sh  'whoami'
          }
      }
