@@ -2,7 +2,7 @@ pipeline{
 stages{
   stage{
     script{
-      sh'whoami'
+      sh  'whoami'
          }
      }
    }  
